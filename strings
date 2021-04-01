@@ -1,0 +1,91 @@
+>>> first_name="cate"
+>>> last_name="gichina"
+>>> school="akirachix"
+>>> balance="5000"
+>>> print("Hello{}{},welcome to{}.Your current balance is {}.format(first_name,last_name,school,payment.))
+  File "<stdin>", line 1
+    print("Hello{}{},welcome to{}.Your current balance is {}.format(first_name,last_name,school,payment.))
+                                                                                                         ^
+>>> print(Hello,catherine gichina,welcome to akirachix.Your current balance is 5000.)
+  File "<stdin>", line 1
+    print(Hello,catherine gichina,welcome to akirachix.Your current balance is 5000.)
+                          ^
+>>> Hello,catherine gichina,welcome  to akirachix.Your current balance is 5000.
+  File "<stdin>", line 1
+    Hello,catherine gichina,welcome  to akirachix.Your current balance is 5000.
+                    ^
+
+
+
+
+
+Python 3.8.6 (default, Jan 27 2021, 15:42:20) 
+[GCC 10.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x="hospital"
+>>> s.index("h")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 's' is not defined
+>>> x.index("h")
+0
+>>> x.index("o")
+1
+>>> x.index("s")
+2
+>>> x.index("p")
+3
+>>> x.index("i")
+4
+>>> x.index("t")
+5
+>>> x.index("a")
+6
+>>> x.index("l")
+7
+>>> x[0:7]
+'hospita'
+>>> x[0:8]
+'hospital'
+>>> hos \vpital
+  File "<stdin>", line 1
+    hos \vpital
+              ^
+SyntaxError: unexpected character after line continuation character
+>>> y="this is a hospital"
+>>> print(thisis\v a hospital)
+  File "<stdin>", line 1
+    print(thisis\v a hospital)
+                             ^
+SyntaxError: unexpected character after line continuation character
+>>> y="hello world"
+>>> print(hello \v world)
+  File "<stdin>", line 1
+    print(hello \v world)
+                        ^
+SyntaxError: unexpected character after line continuation character
+>>> print("hello world\v)
+  File "<stdin>", line 1
+    print("hello world\v)
+                        ^
+SyntaxError: EOL while scanning string literal
+>>> print("hello\v world")
+hello
+      world
+>>> x=("python world")
+>>> x.index[p]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'p' is not defined
+>>> x.index(p)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'p' is not defined
+>>> z="python world"
+>>> z.index("p")
+0
+>>> z.index("w")
+7
+>>> 
+
+
